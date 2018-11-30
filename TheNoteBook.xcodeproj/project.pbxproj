@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5D849721B1AB730073E868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D849621B1AB730073E868 /* AppDelegate.swift */; };
+		CE5D849921B1AB730073E868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D849821B1AB730073E868 /* ViewController.swift */; };
+		CE5D849C21B1AB730073E868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D849A21B1AB730073E868 /* Main.storyboard */; };
+		CE5D849F21B1AB730073E868 /* TheNoteBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5D849D21B1AB730073E868 /* TheNoteBook.xcdatamodeld */; };
+		CE5D84A121B1AB740073E868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5D84A021B1AB740073E868 /* Assets.xcassets */; };
+		CE5D84A421B1AB740073E868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D84A221B1AB740073E868 /* LaunchScreen.storyboard */; };
+		CE5D84AF21B1AB740073E868 /* TheNoteBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D84AE21B1AB740073E868 /* TheNoteBookTests.swift */; };
+		CE5D84BA21B1AB740073E868 /* TheNoteBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D84B921B1AB740073E868 /* TheNoteBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE5D84AB21B1AB740073E868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5D848B21B1AB730073E868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5D849221B1AB730073E868;
+			remoteInfo = TheNoteBook;
+		};
+		CE5D84B621B1AB740073E868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5D848B21B1AB730073E868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5D849221B1AB730073E868;
+			remoteInfo = TheNoteBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE5D849321B1AB730073E868 /* TheNoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5D849621B1AB730073E868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE5D849821B1AB730073E868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5D849B21B1AB730073E868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5D849E21B1AB730073E868 /* TheNoteBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheNoteBook.xcdatamodel; sourceTree = "<group>"; };
+		CE5D84A021B1AB740073E868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE5D84A321B1AB740073E868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE5D84A521B1AB740073E868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5D84AA21B1AB740073E868 /* TheNoteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheNoteBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5D84AE21B1AB740073E868 /* TheNoteBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNoteBookTests.swift; sourceTree = "<group>"; };
+		CE5D84B021B1AB740073E868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5D84B521B1AB740073E868 /* TheNoteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheNoteBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5D84B921B1AB740073E868 /* TheNoteBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNoteBookUITests.swift; sourceTree = "<group>"; };
+		CE5D84BB21B1AB740073E868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5D849021B1AB730073E868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5D84A721B1AB740073E868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5D84B221B1AB740073E868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5D848A21B1AB730073E868 = {
+			isa = PBXGroup;
+			children = (
+				CE5D849521B1AB730073E868 /* TheNoteBook */,
+				CE5D84AD21B1AB740073E868 /* TheNoteBookTests */,
+				CE5D84B821B1AB740073E868 /* TheNoteBookUITests */,
+				CE5D849421B1AB730073E868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5D849421B1AB730073E868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D849321B1AB730073E868 /* TheNoteBook.app */,
+				CE5D84AA21B1AB740073E868 /* TheNoteBookTests.xctest */,
+				CE5D84B521B1AB740073E868 /* TheNoteBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5D849521B1AB730073E868 /* TheNoteBook */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D849621B1AB730073E868 /* AppDelegate.swift */,
+				CE5D849821B1AB730073E868 /* ViewController.swift */,
+				CE5D849A21B1AB730073E868 /* Main.storyboard */,
+				CE5D84A021B1AB740073E868 /* Assets.xcassets */,
+				CE5D84A221B1AB740073E868 /* LaunchScreen.storyboard */,
+				CE5D84A521B1AB740073E868 /* Info.plist */,
+				CE5D849D21B1AB730073E868 /* TheNoteBook.xcdatamodeld */,
+			);
+			path = TheNoteBook;
+			sourceTree = "<group>";
+		};
+		CE5D84AD21B1AB740073E868 /* TheNoteBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D84AE21B1AB740073E868 /* TheNoteBookTests.swift */,
+				CE5D84B021B1AB740073E868 /* Info.plist */,
+			);
+			path = TheNoteBookTests;
+			sourceTree = "<group>";
+		};
+		CE5D84B821B1AB740073E868 /* TheNoteBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D84B921B1AB740073E868 /* TheNoteBookUITests.swift */,
+				CE5D84BB21B1AB740073E868 /* Info.plist */,
+			);
+			path = TheNoteBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5D849221B1AB730073E868 /* TheNoteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5D84BE21B1AB740073E868 /* Build configuration list for PBXNativeTarget "TheNoteBook" */;
+			buildPhases = (
+				CE5D848F21B1AB730073E868 /* Sources */,
+				CE5D849021B1AB730073E868 /* Frameworks */,
+				CE5D849121B1AB730073E868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheNoteBook;
+			productName = TheNoteBook;
+			productReference = CE5D849321B1AB730073E868 /* TheNoteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5D84A921B1AB740073E868 /* TheNoteBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5D84C121B1AB740073E868 /* Build configuration list for PBXNativeTarget "TheNoteBookTests" */;
+			buildPhases = (
+				CE5D84A621B1AB740073E868 /* Sources */,
+				CE5D84A721B1AB740073E868 /* Frameworks */,
+				CE5D84A821B1AB740073E868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5D84AC21B1AB740073E868 /* PBXTargetDependency */,
+			);
+			name = TheNoteBookTests;
+			productName = TheNoteBookTests;
+			productReference = CE5D84AA21B1AB740073E868 /* TheNoteBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE5D84B421B1AB740073E868 /* TheNoteBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5D84C421B1AB740073E868 /* Build configuration list for PBXNativeTarget "TheNoteBookUITests" */;
+			buildPhases = (
+				CE5D84B121B1AB740073E868 /* Sources */,
+				CE5D84B221B1AB740073E868 /* Frameworks */,
+				CE5D84B321B1AB740073E868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5D84B721B1AB740073E868 /* PBXTargetDependency */,
+			);
+			name = TheNoteBookUITests;
+			productName = TheNoteBookUITests;
+			productReference = CE5D84B521B1AB740073E868 /* TheNoteBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5D848B21B1AB730073E868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kenneth Uyabeme";
+				TargetAttributes = {
+					CE5D849221B1AB730073E868 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CE5D84A921B1AB740073E868 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CE5D849221B1AB730073E868;
+					};
+					CE5D84B421B1AB740073E868 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CE5D849221B1AB730073E868;
+					};
+				};
+			};
+			buildConfigurationList = CE5D848E21B1AB730073E868 /* Build configuration list for PBXProject "TheNoteBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5D848A21B1AB730073E868;
+			productRefGroup = CE5D849421B1AB730073E868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5D849221B1AB730073E868 /* TheNoteBook */,
+				CE5D84A921B1AB740073E868 /* TheNoteBookTests */,
+				CE5D84B421B1AB740073E868 /* TheNoteBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5D849121B1AB730073E868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5D84A421B1AB740073E868 /* LaunchScreen.storyboard in Resources */,
+				CE5D84A121B1AB740073E868 /* Assets.xcassets in Resources */,
+				CE5D849C21B1AB730073E868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5D84A821B1AB740073E868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5D84B321B1AB740073E868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5D848F21B1AB730073E868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5D849921B1AB730073E868 /* ViewController.swift in Sources */,
+				CE5D849721B1AB730073E868 /* AppDelegate.swift in Sources */,
+				CE5D849F21B1AB730073E868 /* TheNoteBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5D84A621B1AB740073E868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5D84AF21B1AB740073E868 /* TheNoteBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5D84B121B1AB740073E868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5D84BA21B1AB740073E868 /* TheNoteBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE5D84AC21B1AB740073E868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5D849221B1AB730073E868 /* TheNoteBook */;
+			targetProxy = CE5D84AB21B1AB740073E868 /* PBXContainerItemProxy */;
+		};
+		CE5D84B721B1AB740073E868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5D849221B1AB730073E868 /* TheNoteBook */;
+			targetProxy = CE5D84B621B1AB740073E868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE5D849A21B1AB730073E868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5D849B21B1AB730073E868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE5D84A221B1AB740073E868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5D84A321B1AB740073E868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5D84BC21B1AB740073E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE5D84BD21B1AB740073E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE5D84BF21B1AB740073E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheNoteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AdvancedMobileAppDev.TheNoteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE5D84C021B1AB740073E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheNoteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AdvancedMobileAppDev.TheNoteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE5D84C221B1AB740073E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheNoteBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AdvancedMobileAppDev.TheNoteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheNoteBook.app/TheNoteBook";
+			};
+			name = Debug;
+		};
+		CE5D84C321B1AB740073E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheNoteBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AdvancedMobileAppDev.TheNoteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheNoteBook.app/TheNoteBook";
+			};
+			name = Release;
+		};
+		CE5D84C521B1AB740073E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheNoteBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AdvancedMobileAppDev.TheNoteBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheNoteBook;
+			};
+			name = Debug;
+		};
+		CE5D84C621B1AB740073E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheNoteBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AdvancedMobileAppDev.TheNoteBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheNoteBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5D848E21B1AB730073E868 /* Build configuration list for PBXProject "TheNoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5D84BC21B1AB740073E868 /* Debug */,
+				CE5D84BD21B1AB740073E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5D84BE21B1AB740073E868 /* Build configuration list for PBXNativeTarget "TheNoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5D84BF21B1AB740073E868 /* Debug */,
+				CE5D84C021B1AB740073E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5D84C121B1AB740073E868 /* Build configuration list for PBXNativeTarget "TheNoteBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5D84C221B1AB740073E868 /* Debug */,
+				CE5D84C321B1AB740073E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5D84C421B1AB740073E868 /* Build configuration list for PBXNativeTarget "TheNoteBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5D84C521B1AB740073E868 /* Debug */,
+				CE5D84C621B1AB740073E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE5D849D21B1AB730073E868 /* TheNoteBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE5D849E21B1AB730073E868 /* TheNoteBook.xcdatamodel */,
+			);
+			currentVersion = CE5D849E21B1AB730073E868 /* TheNoteBook.xcdatamodel */;
+			path = TheNoteBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE5D848B21B1AB730073E868 /* Project object */;
+}
