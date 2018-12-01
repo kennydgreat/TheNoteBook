@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE5D849721B1AB730073E868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D849621B1AB730073E868 /* AppDelegate.swift */; };
-		CE5D849921B1AB730073E868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D849821B1AB730073E868 /* ViewController.swift */; };
+		CE5D849921B1AB730073E868 /* PageScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D849821B1AB730073E868 /* PageScreenController.swift */; };
 		CE5D849C21B1AB730073E868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D849A21B1AB730073E868 /* Main.storyboard */; };
 		CE5D849F21B1AB730073E868 /* TheNoteBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5D849D21B1AB730073E868 /* TheNoteBook.xcdatamodeld */; };
 		CE5D84A121B1AB740073E868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5D84A021B1AB740073E868 /* Assets.xcassets */; };
@@ -16,6 +16,7 @@
 		CE5D84AF21B1AB740073E868 /* TheNoteBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D84AE21B1AB740073E868 /* TheNoteBookTests.swift */; };
 		CE5D84BA21B1AB740073E868 /* TheNoteBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D84B921B1AB740073E868 /* TheNoteBookUITests.swift */; };
 		CE5D84CD21B1AF7A0073E868 /* NotebookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D84CC21B1AF7A0073E868 /* NotebookTableViewController.swift */; };
+		CE5D84D121B1DC320073E868 /* PagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D84D021B1DC320073E868 /* PagesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 /* Begin PBXFileReference section */
 		CE5D849321B1AB730073E868 /* TheNoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5D849621B1AB730073E868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE5D849821B1AB730073E868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5D849821B1AB730073E868 /* PageScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageScreenController.swift; sourceTree = "<group>"; };
 		CE5D849B21B1AB730073E868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5D849E21B1AB730073E868 /* TheNoteBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheNoteBook.xcdatamodel; sourceTree = "<group>"; };
 		CE5D84A021B1AB740073E868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		CE5D84B921B1AB740073E868 /* TheNoteBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNoteBookUITests.swift; sourceTree = "<group>"; };
 		CE5D84BB21B1AB740073E868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5D84CC21B1AF7A0073E868 /* NotebookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookTableViewController.swift; sourceTree = "<group>"; };
+		CE5D84D021B1DC320073E868 /* PagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				CE5D84CC21B1AF7A0073E868 /* NotebookTableViewController.swift */,
-				CE5D849821B1AB730073E868 /* ViewController.swift */,
-				CE5D84C921B1AD510073E868 /* View */,
+				CE5D849821B1AB730073E868 /* PageScreenController.swift */,
+				CE5D84D021B1DC320073E868 /* PagesTableViewController.swift */,
+				CE5D849A21B1AB730073E868 /* Main.storyboard */,
 				CE5D849621B1AB730073E868 /* AppDelegate.swift */,
 				CE5D84A021B1AB740073E868 /* Assets.xcassets */,
 				CE5D84A221B1AB740073E868 /* LaunchScreen.storyboard */,
@@ -129,14 +132,6 @@
 				CE5D84BB21B1AB740073E868 /* Info.plist */,
 			);
 			path = TheNoteBookUITests;
-			sourceTree = "<group>";
-		};
-		CE5D84C921B1AD510073E868 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CE5D849A21B1AB730073E868 /* Main.storyboard */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5D84D121B1DC320073E868 /* PagesTableViewController.swift in Sources */,
 				CE5D84CD21B1AF7A0073E868 /* NotebookTableViewController.swift in Sources */,
-				CE5D849921B1AB730073E868 /* ViewController.swift in Sources */,
+				CE5D849921B1AB730073E868 /* PageScreenController.swift in Sources */,
 				CE5D849721B1AB730073E868 /* AppDelegate.swift in Sources */,
 				CE5D849F21B1AB730073E868 /* TheNoteBook.xcdatamodeld in Sources */,
 			);
